@@ -1,0 +1,85 @@
+body{
+	font-family:"microsoft yahei"	;
+	color:#999;
+	background:url("../img/reg/animate-bg.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/reg/animate-bg.jpg*/ no-repeat center top;
+	min-width:1002px;
+}
+.header{
+	width:818px;
+	padding:30px 0 0;
+	margin:0 auto 40px;
+}
+.section{
+	width:818px;
+	margin:0 auto;
+	height:500px;
+	background:#fff;
+}
+.section>.container{
+	width:396px;
+	padding:60px 0 0;
+	margin:0 auto;
+	text-align:center;
+}
+.section>.container>.title>h1{
+	font-size:34px;
+	line-height:36px;
+	font-weight:normal;
+	color:#333;
+	margin-bottom:10px;
+	letter-spacing: 5px;
+}
+.section>.container>.title>p{
+	font-size:18px;
+	margin-bottom:34px;
+}
+.section>.container>.content{
+	width:100%;
+}
+.section>.container>.content>div{
+	position:relative;
+	height:35px;
+	padding:0 24px 0 10px;
+	border:1px solid red;
+	margin-bottom:17px;
+	line-height:35px;
+}
+.section>.container>.content>div>input{
+	font-size:14px;
+	width:100%;
+	height:19px;
+	padding:7px 0;
+	vertical-align: top;
+	line-height:normal;
+	outline:none;
+	border:none;
+	font:400 13.3333px Arial;
+}
+.section>.container>.content>div>span{
+	text-align:left;
+	display: inline-block;
+	background:url("../img/reg/rico_error.png")/*tpa=http://www.codeboy.com/pro/dota2/img/reg/rico_error.png*/ no-repeat left 2px;
+	position:absolute;
+	top:9px;
+	left:400px;
+	width: 190px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Arial", "Simsun";
+    padding-left: 17px;
+    color: #ff5959;
+    display:none;
+}
+.section>.container>.content>.btn{
+	width:100%;
+	display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2), inset -1px -1px 0px rgba(255,255,255,0.2);
+    font-size: 16px;
+    background: #ed1919;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    color:#fff;
+}

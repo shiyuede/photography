@@ -1,0 +1,278 @@
+
+/*主体nav部分*/
+body{
+	min-width:1336px;
+
+
+	
+
+}
+.header{	 
+	/*background:url("img/index/bg_video.png")
+	no-repeat center top;*/
+	min-width:1200px;
+}
+.main{
+	width:1400px;
+	margin:0 auto;	
+}
+.header>div.main{
+	padding-top:70px;
+	position:relative;
+	z-index:10;
+}
+.header>.video_center>.video_play{	
+	position:relative;
+	
+}
+.header>.video_center>.video_play>video{
+	position:absolute;
+	left:50%;
+	top:0px;
+	width:1904px;
+	margin-left:-960px;
+}
+.header>.video_center>.video_play>img{
+	z-index:10;
+	position:absolute;
+	left:50%;
+	top:580px;
+	width:1904px;
+	margin-left:-960px;
+}
+.header>div.main>div.header-link{	
+	height:40px;
+}
+.header>div.main>div.header-link>ul>li{
+	float:left;
+	width:98px;
+	text-align:center;
+	margin-right:95px;
+}
+.header>div.main>div.header-link>ul>li.center{
+	margin-right:424px;
+}
+.header>div.main>div.header-link ul li:last-child{
+	margin-right:0px;
+}
+.header>div.main>div.header-link>ul>li>a>p.lel-1{
+	height:25px;
+	line-height:25px;
+	font:bold 24px "方正舒体" ;
+	color:#d10f0f;
+	transition:color 0.5s;	
+}
+.header>div.main>div.header-link>ul>li>a>p.lel-2{
+	height:25px;
+	line-height:25px;
+	font: bold 25px "Curlz MT";
+	font-weight:600;
+	color:#d10f0f;
+	transition:color 0.5s;
+	margin-top:5px;
+}
+.header>div.main>div.header-link>ul>li:hover>a>p{
+	color:#61ccec;
+}
+.header>div.main>div.header-link>img{
+	position:absolute;
+	left:629px;
+	top:6px;
+	opacity:0.4s;
+}
+.header>div.main>.video_detail{
+	margin:0px auto;
+	width:800px;
+	height:535px;
+	text-align:center;
+	margin-top:145px;
+}
+.header>div.main>.video_detail>.video_play_d1{
+	opacity:0.7;
+	
+	}
+.header>div.main>.video_detail>.video_play_d2{
+	opacity:0.7;
+	position:absolute;
+	top:0px;
+	left:710px;
+}
+.header>div.main>.video_detail>.video_play_d3{
+	opacity:0.7;
+	position:absolute;
+	top:8px;
+	left:650px;
+}
+.header>div.main>.video_detail>.play_video{
+	display: block;
+	width:130px;
+	height:130px;
+	margin:0px auto 20px;
+}
+.header>div.main>.video_detail>p{
+	font: bold 25px "方正舒体";
+	color:rgb(59, 137, 173);
+	letter-spacing: 5px;
+}
+.header>div.main>.video_detail>.lets_play{
+	display:block;
+	width:304px;
+	height:50px;
+	margin:40px auto 30px;
+	border:1px solid #70bad1;
+	border-radius:25px;
+	color:#70bad1;
+	font: bold 25px/50px "Curlz MT";
+	transition:all 0.5s;
+	letter-spacing: 3px;
+	text-align:center;
+	background:rgba(95, 126, 226, 0.2)
+}
+.header>div.main>.video_detail>.lets_play:hover{
+	background:rgba(255,192,118,0.5);
+}
+/***************主要内容*****************************/
+.section{
+	position:relative;
+	margin:0 auto;
+	width:1400px;
+	height:1085px;
+	z-index:100;
+}
+.section>.active{
+	padding-top:50px;
+	width:100%;
+	height:272px;
+	margin:0 auto;
+}
+.section>.active>ul{
+	width:100%;
+	height:272px;
+	margin:0 auto;
+	justify-content:space-between;
+}
+.section>.active>ul>li{
+	float:left;
+	margin-right:122.5px;	
+	width:385px;
+	height:271px;
+	border-top:1px solid #1B1617;
+	position:relative;
+	transition:all 0.5s;
+	cursor: pointer;
+}
+.section>.active>ul>li:last-child{
+	margin-right:0px	
+}
+.section>.active>ul>li p{
+	display:block;
+	width:385px;
+	height:60px;
+	box-sizing: border-box;
+	padding-top:20px;
+	font:bold 20px "Curlz MT";
+	text-align:center;
+	vertical-align: middle;
+}
+.section>.active>ul>li>.drak>p{
+	color:rgb(59, 137, 173);
+	background:#4b585a;
+}
+.section>.active>ul>li>.u_highlight>p{
+	color:#70bad1;
+	background:rgb(90, 105, 119);
+	font:22px "方正舒体"
+}
+.section>.active>ul>li>div{
+	position:absolute;
+	display:none;
+	transition:all 0.5s;
+}
+.section>.active>ul>li>div.selected{
+	display:block;
+}
+.section>.player{
+	width:1400px;
+	height:777px;
+	margin-top:20px;
+	position:relative;
+	transition: all 0.5s;
+}
+
+.section>.player>.new_play{
+	width:380px;
+	height:380px;
+	background:url("../img/index/cover_bg66.jpg") no-repeat top center;
+	position:absolute;
+	top:200px;
+	left:0px;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.section>.player>.old_play{
+	width:380px;
+	height:380px;
+	background: url("../img/index/cover_bg55.jpg") no-repeat top center;
+	position:absolute;
+	top:200px;
+	right:0px;
+	opacity: 0.7;
+	cursor: pointer;
+	transition: all 0.5s;	
+}
+.section>.player>.new_hero{
+	width:385px;
+	height:385px;
+	background:url("../img/index/cover_bg11.jpg") no-repeat left center;
+	margin:0px auto;
+}
+.section>.player>.old_hero{
+	width:385px;
+	height:385px;
+	background:url("../img/index/cover_bg22.jpg") no-repeat right center;
+	margin:0px auto;
+}
+.section>.player>.selected{
+	display: none;
+}
+.section>.player>.bg_wap{
+	margin-left:-252px;
+	margin-top:-15px;
+	width:1904px;
+	height:150px;
+	background:url("../img/index/bg_02.png") no-repeat center -50px;
+	background-size: cover;
+}
+.video_full{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7);
+	display:none;
+}
+.play{
+	z-index:100;
+	display:block;
+
+	
+}
+.video_full>.video_detail{
+	position:absolute;
+	left:50%;
+	top:150px;
+	width:1020px;
+	margin-left:-500px;
+}
+.video_full>.video_detail>span{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	background:url("../img/index/model_img1.png") no-repeat top center;
+}
+.footer{
+	background: rgb(21, 22, 22);
+}

@@ -1,0 +1,403 @@
+body{
+	min-height:1200px;
+	height:100%;
+	color:rgb(155,137,130);
+	font:18px "microsoft yahei","微软雅黑",Arial,helvetica;
+	background:#000;
+}
+/**********************************container_banner*********************/
+.section{
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+}
+.section>.container{
+	margin:0 auto;	
+	text-align:center;
+	width:100%;
+}
+.section>.container_banner{
+	background:url("../img/oldplayer/bg-banner.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-banner.jpg*/ no-repeat  center top;
+	height:1386px;
+}
+.section>.container_banner>.welcome{
+	margin-top:650px;
+	font-size:24px;
+}
+.section>.container_banner>.cards{
+	margin:35px auto 0px;
+	width:1200px;
+	height: 325px;			
+}
+.section>.container_banner>.cards>li{
+	width:233px;
+	height:325px;
+	float:left;
+	position:relative;
+	font-size:14px;
+	transition: background-color 0.5s;
+	overflow: hidden;
+	cursor: pointer;
+}
+.section>.container_banner>.cards>li>.card{
+	width:233px;
+	position:absolute;
+	top:330px;
+	left:0;
+	text-align: center;
+	transition: all 0.3s;
+	line-height:20px;
+}
+.section>.container_banner>.cards>li~li{
+	margin-left:8px;
+	
+}
+.section>.container_banner>.cards>li:first-child{
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -26px -12px;
+}
+.section>.container_banner>.cards>li:nth-child(2){
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -271px -12px;
+}
+.section>.container_banner>.cards>li:nth-child(3){
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -510px -12px;
+}
+.section>.container_banner>.cards>li:nth-child(4){
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -753px -12px;
+}
+.section>.container_banner>.cards>li:nth-child(5){
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -995px -12px;
+}
+.section>.container_banner>.cards>li>a.card_button{
+	display:block;
+	width:164px;
+	height:59px;
+	position:absolute;
+	bottom:20px;
+	left:34.5px;
+	line-height: 59px;
+	color:#b4b4b4;
+	font-size:20px;
+	transition:opacity 0.3s;
+	background:url("../img/oldplayer/btns.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/btns.png*/ no-repeat -11px -13px;
+	opacity: 0;
+}
+.section>.container_banner>.cards>li:first-child:hover{
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -26px -365px;
+}
+.section>.container_banner>.cards>li:nth-child(2):hover{
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -271px -365px;
+}
+.section>.container_banner>.cards>li:nth-child(3):hover{
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -510px -365px;
+}
+.section>.container_banner>.cards>li:nth-child(4):hover{
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -753px -365px;
+}
+.section>.container_banner>.cards>li:nth-child(5):hover{
+	background:url("../img/oldplayer/bg-cards.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-cards.png*/ no-repeat -995px -365px;
+}
+.section>.container_banner>.cards>li:hover>.card{
+	top:120px;
+}
+.section>.container_banner>.cards>li:hover>.card_button{
+	opacity: 1;
+}
+.section>.container_banner>.cards>li>.card_button:hover{
+	background:url("../img/oldplayer/btns.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/btns.png*/ no-repeat -308px -13px;
+}
+.section>.container_banner>.desc{
+	margin:80px auto;
+}
+.section>.container_banner>.desc>h1{
+	color:rgb(243,222,168);
+	text-shadow:0px 3px 3px rgba(78,9,9,0.75);
+	font-size:48px;
+	font-weight:bold; 
+}	
+.section>.container_banner>.desc>p{
+	font-size:18px;
+	color:rgb(141,128,96);
+	line-height: 35px;
+	text-shadow:0px 3px 3px rgba(78,9,9,0.75);
+}
+.section>.container>.desc{
+	text-align:center;
+}
+.section>.container>.desc>h1{
+	font-size:48px;
+	font-weight:bold; 
+}
+.section>.container>.desc>p{
+	line-height: 35px;
+	font-size:18px;
+}
+.section>.container>a.button{
+	display: inline-block;
+	margin-top:30px;
+	width:273px;
+	height:70px;
+	background-image:url("../img/oldplayer/btns.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/btns.png*/;
+	background-repeat:no-repeat;
+}
+/**********************container_monkey******************/
+.section>.container_monkey{
+	height:751px;
+	background:url("../img/oldplayer/bg-monkey.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-monkey.jpg*/ no-repeat top center;
+}
+.section>.container_monkey>.desc{
+	margin-top:450px;
+}
+.section>.container_monkey>.desc>h1{
+	color:rgb(254,211,118);
+	text-shadow: 0px 5px 5px rgba(60,45,49,0.75);
+}
+.section>.container_monkey>.desc>p{
+	color:rgb(173,131,77);
+}
+.section>.container_monkey>.button{
+	background-position: -12px -345px;
+}
+.section>.container_monkey>.button:hover{
+	background-position: -308px -345px;
+}
+/**********************container_tiny******************/
+.section>.container_tiny{
+	height:768px;
+	background:url("../img/oldplayer/bg-new.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-new.jpg*/ no-repeat top center;
+}
+.section>.container_tiny>.desc{
+	margin-top:485px;
+}
+.section>.container_tiny>.desc>h1{
+	color:rgb(157, 255, 248);
+	text-shadow: 0px 0px 24px rgba(24,74,91,0.75);
+}
+.section>.container_tiny>.desc>p{
+	color:rgb(41,139,160);
+}
+.section>.container_tiny>.button{
+	background-position: -12px -430px;
+}
+.section>.container_tiny>.button:hover{
+	background-position: -308px -430px;
+}
+/**********************container_grade******************/
+.section>.container_grade{
+	height:733px;
+	background:url("../img/oldplayer/bg-grade.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-grade.jpg*/ no-repeat top center;
+}
+.section>.container_grade>.desc{
+	margin-top:470px;
+}
+.section>.container_grade>.desc>h1{
+	color:rgb(235, 255, 254);
+	text-shadow: 0px 0px 24px rgba(0,0,0,0.5);
+}
+.section>.container_grade>.desc>p{
+	color:rgb(57,171,176);
+}
+.section>.container_grade>.button{
+	background-position: -12px -517px;
+}
+.section>.container_grade>.button:hover{
+	background-position: -308px -517px;
+}
+/**********************container_game******************/
+.section>.container_game{
+	height:904px;
+	background:url("../img/oldplayer/bg-game.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-game.jpg*/ no-repeat top center;
+}
+.section>.container_game>.desc{
+	margin-top:650px;
+}
+.section>.container_game>.desc>h1{
+	color:rgb(255, 219, 143);
+	text-shadow: 0px 0px 24px rgba(188, 133, 73,0.5);
+}
+.section>.container_game>.desc>p{
+	color:rgb(155, 107, 66);
+}
+.section>.container_game>.desc>p>b{
+	color:#ed6333;
+}
+.section>.container_game>.button{
+	background-position: -12px -603px;
+}
+.section>.container_game>.button:hover{
+	background-position: -308px -603px;
+}
+/**********************container_vip******************/
+.section>.container_vip{
+	height:824px;
+	background:url("../img/oldplayer/bg-model.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-model.jpg*/ no-repeat top center;
+}
+.section>.container_vip>.desc{
+	margin-top:560px;
+}
+.section>.container_vip>.desc>h1{
+	color:rgb(237, 255, 154);
+	text-shadow: 0px 0px 24px rgba(110, 175, 84,0.5);
+}
+.section>.container_vip>.desc>p{
+	color:rgb(80, 144, 100);
+}
+.section>.container_vip>.button{
+	background-position: -12px -688px;
+}
+.section>.container_vip>.button:hover{
+	background-position: -308px -688px;
+}
+/**********************container_brave******************/
+.section>.container_brave{
+	height:695px;
+	background:url("../img/oldplayer/bg-braver.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-braver.jpg*/ no-repeat top center;
+}
+.section>.container_brave>.desc{
+	margin-top:390px;
+}
+.section>.container_brave>.desc>h1{
+	color:rgb(232, 224, 126);
+	/*text-shadow: 0px 0px 24px rgba(110, 175, 84,0.5);*/
+}
+.section>.container_brave>.desc>p{
+	color:rgb(241, 224, 101);
+}
+.section>.container_brave>.button{
+	background-position: -12px -88px;
+}
+.section>.container_brave>.button:hover{
+	background-position: -308px -88px;
+}
+/**********************container_precious******************/
+.section>.container_precious{
+	height:1103px;
+	background:url("../img/oldplayer/bg-precious.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-precious.jpg*/ no-repeat top center;
+}
+.section>.container_precious>.desc{
+	margin-top:655px;
+}
+.section>.container_precious>.desc>h1{
+	color:rgb(243, 199, 94);
+	/*text-shadow: 0px 0px 24px rgba(110, 175, 84,0.5);*/
+}
+.section>.container_precious>.desc>p{
+	color:rgb(137, 104, 41);
+}
+.section>.container_precious>.button{
+	background-position: -12px -774px;
+}
+.section>.container_precious>.button:hover{
+	background-position: -308px -774px;
+}
+/**********************container_rpg******************/
+.section>.container_rpg{
+	height:777px;
+	background:url("../img/oldplayer/bg-rpg.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-rpg.jpg*/ no-repeat top center;
+}
+.section>.container_rpg>.desc{
+	margin-top:445px;
+}
+.section>.container_rpg>.desc>h1{
+	color:rgb(219, 199, 174);
+	/*text-shadow: 0px 0px 24px rgba(110, 175, 84,0.5);*/
+}
+.section>.container_rpg>.desc>p{
+	color:rgb(150, 129, 103);
+}
+.section>.container_rpg>.button{
+	background-position: -12px -861px;
+}
+.section>.container_rpg>.button:hover{
+	background-position: -308px -861px;
+}
+/**********************container_system******************/
+.section>.container_system{
+	height:930px;
+	background:url("../img/oldplayer/bg-system.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-system.jpg*/ no-repeat top center;
+}
+.section>.container_system>.desc{
+	margin-top:697px;
+}
+.section>.container_system>.desc>h1{
+	color:rgb(142, 217, 225);
+	/*text-shadow: 0px 0px 24px rgba(110, 175, 84,0.5);*/
+}
+.section>.container_system>.desc>p{
+	color:rgb(104, 155, 161);
+}
+.section>.container_system>.button{
+	background-position: -12px -949px;
+}
+.section>.container_system>.button:hover{
+	background-position: -308px -949px;
+}
+/**********************container_download******************/
+.section>.container_download{
+	height:824px;
+	background:url("../img/oldplayer/bg-download.jpg")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/bg-download.jpg*/ no-repeat top center;
+}
+.section>.container_download>.desc{
+	margin-top:520px;
+}
+.section>.container_download>.desc>h1{
+	color:rgb(243, 222, 168, 0.878);
+	/*text-shadow: 0px 0px 24px rgba(110, 175, 84,0.5);*/
+}
+.section>.container_download>.desc>p{
+	color:rgb(141, 128, 96);
+}
+.section>.container_download>.button{
+	background-position: -12px -259px;
+}
+.section>.container_download>.button:hover{
+	background-position: -308px -259px;
+}
+/***************楼层滚动*************/
+.aside{
+	width:273px;
+	height:700px;
+	margin-top:-350px;
+	position:fixed;
+	top:50%;
+	right:0;
+	display:none;
+}
+.aside>div{
+	width:100%;
+	height:70px;
+	background-image:url("../img/oldplayer/btns.png")/*tpa=http://www.codeboy.com/pro/dota2/img/oldplayer/btns.png*/;
+	background-repeat:no-repeat;
+}
+.aside>.red{
+		border:1px red solid;
+}
+.aside>div:nth-child(1){
+	background-position: -12px -345px;
+}
+.aside>div:nth-child(2){
+	background-position:-12px -430px;
+}
+.aside>div:nth-child(3){
+	background-position: -12px -517px;
+}
+.aside>div:nth-child(4){
+	background-position:-12px -603px;
+}
+.aside>div:nth-child(5){
+	background-position: -12px -688px;
+}
+.aside>div:nth-child(6){
+	background-position: -12px -88px;
+}
+.aside>div:nth-child(7){
+	background-position: -12px -774px;
+}
+.aside>div:nth-child(8){
+	background-position: -12px -861px;
+}
+.aside>div:nth-child(9){
+	background-position:  -12px -949px;
+}
+.aside>div:nth-child(10){
+	background-position: -12px -259px;
+}

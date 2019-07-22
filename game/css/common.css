@@ -1,0 +1,41 @@
+body,div,p,ul,li,table,dl,dt,tr,td,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#666;
+	text-decoration:none;
+}
+ul,ol{
+	list-style: none;	
+}
+img{
+	border:none;
+	vertical-align:middle;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both
+}
+html{
+	min-width:1200px;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+.be:before{
+	content:"";
+	display: table;
+	height:0px;
+}
+body{
+	margin:0 auto;
+}

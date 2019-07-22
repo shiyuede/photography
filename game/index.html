@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/footer.css"  />
+		<link rel="stylesheet" href="css/index.css"  />
+	</head>
+	<body style="background:url('img/index/bg_video.jpg');  opacity: 0.93;">
+		<!----------------------主体动画部分----------------------------------------------->
+		<header class="header">	
+			<div class="video_center">
+				<div class="video_play">
+						<video loop autoplay muted>
+							<source src="img/index/cover.mp4" />
+							<source src="img/index/cover.ogg" />
+							<source src="img/index/cover.webm"/>
+							
+						</video>
+						<img src="img/index/bg_wrap2.png" />
+				</div>				
+			</div>			
+			<div class="main">
+				<div class="header-link">
+					<ul>
+						<li>
+							<a href="main.html" />
+								<p class="lel-1">首页</p>
+								<p class="lel-2">HOME</p>
+							</a>
+						</li>
+						<li>
+							<a href="heroes.html" />
+								<p class="lel-1">资料</p>
+								<p class="lel-2">DATA</p>
+							</a>
+						</li>
+						<li class="center">
+							<a href="#">
+								<p class="lel-1">内容</p>
+								<p class="lel-2">CONTENT</p>
+							</a>
+						</li>
+						<li>
+						<a href="register.html" />
+								<p class="lel-1">账号</p>
+								<p class="lel-2">REGISTER</p>
+						</a>
+						</li>
+
+						<li>
+							<a href="oldplayer.html" />
+								<p class="lel-1">互动</p>
+								<p class="lel-2">INTERATiON</p>
+							</a>
+						</li>		
+						<li>
+							<a href="index.html" />
+								<p class="lel-1">百态</p>
+								<p class="lel-2">BEAUTY</p>
+							</a>
+						</li>	
+					</ul>	
+					<img src="img/index/logo.png"  alt="" />
+				</div>	
+				<div class="video_detail">
+					 <img src="img/index/logo_d1.jpg" class="video_play_d1"/>
+					<img src="img/index/logo_d2.jpg" class="video_play_d2"/>
+					<img src="img/index/logo_d3.png" class="video_play_d3">
+					<a href="javascript:;" class="play_video" id="play_video">
+						<img src="img/index/videoplay.png"  alt="" />
+					</a>
+					<p> 触发惊喜</p>
+					<a href="#" class="lets_play">PLAY CHEERFULLY</a>
+				</div>
+			</div>
+		</header>
+		<!------------------------主要内容----------------------->
+		<section class="section">
+			<div class="active">
+				<ul id="active_hover">
+					<li>
+						<div class="drak selected">
+							<p>a bright sky</p>
+							<img src="img/index/111.jpg"  alt="" />
+						</div>
+						<div class="u_highlight">
+							<p>晴空万里</p>
+							<img src="img/index/12.jpeg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="drak selected">
+							<p>AN ABUNDANCE OF DUNES</p>
+							<img src="img/index/222.jpg"  alt="" />
+						</div>
+						 <div class="u_highlight">
+							<p>黄沙漫天</p>
+							<img src="img/index/22.jpg"  alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="drak selected">
+							<p>Wanli clouds</p>
+							<img src="img/index/333.png"  alt="" />
+						</div>
+						<div class="u_highlight">
+							<p>万里乌云</p>
+							<img src="img/index/32.jpg"  alt="" />
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="player be"   >
+				<div class="new_play"></div>
+				<div class="old_play"></div>
+				<div class="new_hero selected"></div>
+				<div class="old_hero"></div>
+				<div class="bg_wap"></div>
+			</div>
+		</section>
+		<div class="video_full">
+			<div class="video_detail">
+				<video controls width="1000">
+					<source src="img/index/coverfull.mp4" />
+					<source src="img/index/coverfull.ogg" />
+					<source src="img/index/coverfull.webm" />
+					
+				</video>
+				<span id="remove_video" ></span>
+			</div>
+		</div>
+		<footer id="footer"></footer>
+		<script src="js/jquery-3.2.1.js" /></script>
+		<script src="js/index.js"/></script>
+	</body>
+</html>
